@@ -1,0 +1,61 @@
+.task {
+  font-size: 22px;
+  /* font-weight: 600; */
+  display: flex;
+  align-items: center;
+  background: #066dc1;
+  height: 70px;
+  width: 100%;
+  padding: 0 40px;
+  border: none;
+  border-bottom: 1px solid #1f1f1f;
+  color: #fafafa;
+  text-transform: capitalize;
+  border-radius: 10px;
+  transition: all 0.7s ease;
+}
+
+/* .task:hover {
+  background-color: #1eb4f5;
+  color: #374b57;
+} */
+.task p {
+  width: 80%;
+}
+.task input {
+  width: 681px;
+}
+
+.m-right {
+  margin-right: 30px;
+}
+
+.edit-btn {
+  background-color: #5be01f;
+  border-radius: 5px;
+}
+.common-cl {
+  cursor: pointer;
+}
+.common-cl:hover {
+  margin-bottom: 2px;
+}
+
+.taskComplete {
+  text-decoration: line-through;
+  color: #5be01f;
+}
+
+.bg-green {
+  background-color: #1f1f1f;
+}
+.fa-check-circle:hover {
+  color: #5be01f;
+}
+.fa-trash-alt {
+  /* color: #f40b13; */
+  color: #f46c0b;
+}
+.fa-edit {
+  color: #5be01f;
+}
